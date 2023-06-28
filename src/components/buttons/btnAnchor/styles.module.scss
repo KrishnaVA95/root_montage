@@ -1,0 +1,25 @@
+@use "../../../scss/abstracts/" as *;
+
+.container{
+    a{
+        min-width: 100px;
+        max-width: 250px;
+        height: auto;
+        padding: 5px;
+        background-color: $color-primary-500;
+        @include text-style-paragraph-1;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.8rem;
+        color: $color-grey-900;
+        // border: 1px solid $color-glassmorphism-05;
+        letter-spacing: 4px;
+        margin: auto;
+    }
+
+    a:hover{
+        background-color: $color-primary-700;
+    }
+}

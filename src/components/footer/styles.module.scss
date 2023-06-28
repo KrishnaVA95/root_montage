@@ -1,0 +1,29 @@
+@use "../../scss/abstracts/" as *;
+
+.container{
+    width: 100%;
+    height: auto;
+
+    border-top: 1px solid $color-glassmorphism-05;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+}
+
+
+@media (min-width: 700px) {
+    .container{
+        justify-content: space-between;
+        div{
+            flex-direction: row;
+        }
+    }
+}
