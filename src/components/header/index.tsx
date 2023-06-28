@@ -8,7 +8,7 @@ export default async function Header(){
     return(
         <div className={styles.container}>
             <Logo/>
-            <BtnAnchor text='login' url="/"/>
+            <BtnAnchor text='login' url="/accounts/login"/>
         </div>
     ) 
         
